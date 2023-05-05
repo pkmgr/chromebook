@@ -190,7 +190,6 @@ install_pkg docutils-common
 install_pkg dosfstools
 install_pkg dpkg
 install_pkg dpkg-dev
-install_pkg dunst
 install_pkg e2fslibs
 install_pkg e2fsprogs
 install_pkg e2fsprogs-l10n
