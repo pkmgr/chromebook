@@ -5,7 +5,7 @@ SCRIPTDIR="$(dirname "${BASH_SOURCE[0]}")"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # @Author      : Jason
-# @Contact     : casjaysdev@casjay.net
+# @Contact     : casjaysdev@casjay.pro
 # @File        : chromebook.sh
 # @Created     : Mon, Dec 31, 2019, 00:00 EST
 # @License     : WTFPL
