@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-SCRIPTNAME="$(basename $0)"
+SCRIPTNAME="${0##*/}"
 SCRIPTDIR="$(dirname "${BASH_SOURCE[0]}")"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -157,7 +157,7 @@ __run_post() {
   set --
 }
 __system_service_exists() {
-  if sudo systemctl list-units --full -all | grep -Fq "$1"; then return 0; else return 1; fi
+  if sudo systemctl list-units --full -all | grep -Fq -- "$1"; then return 0; else return 1; fi
   __setexitstatus
   set --
 }
